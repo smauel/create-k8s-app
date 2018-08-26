@@ -1,0 +1,29 @@
+{
+  "name": "create-k8s-app",
+  "version": "1.0.0",
+  "description": "Create Kubernetes app with no build configuration",
+  "author": "Sam Morrison",
+  "license": "ISC",
+  "keywords": [
+    "k8s"
+  ],
+  "bin": {
+    "create-k8s-app": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "cross-spawn": "^6.0.5",
+    "envinfo": "^5.10.0",
+    "fs-extra": "^7.0.0",
+    "hyperquest": "^2.1.3",
+    "semver": "^5.5.1",
+    "tar-pack": "^3.4.1",
+    "tmp": "0.0.33"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
