@@ -1,0 +1,26 @@
+{
+  "name": "k8s-scripts",
+  "version": "1.0.0",
+  "description": "Configuration and scripts for Create Kubernetes App.",
+  "author": "Sam Morrison",
+  "license": "ISC",
+  "keywords": [
+    "k8s"
+  ],
+  "files": [
+    "bin",
+    "config",
+    "scripts",
+    "template",
+    "utils"
+  ],
+  "bin": {
+    "k8s-scripts": "./bin/k8s-scripts.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^7.0.0",
+    "npm": "^6.4.0"
+  }
+}
